@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonal Images with Borders</title>
+    <style>
+        body {
+            background: #4e4949;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            background-color: #f4f4f4; /* Light background color */
+            margin: 0; /* Remove default margin */
+            overflow: hidden;
+        }
+
+        .image-container {
+            position: relative; /* Enable absolute positioning for child elements */
+            width: 300px; /* Set a fixed width for the container */
+            height: 300px; /* Set a fixed height for the container */
+        }
+
+        .image {
+            position: absolute;
+            width: 150px; /* Set the width for the images */
+            height: 150px; /* Set the height for the images */
+            object-fit: cover; /* Ensure the image covers the area */
+            border: 5px solid #030508; /* Blue border for the images */
+            border-radius: 10px; /* Rounded corners for the borders */
+        }
+
+        .image1 {
+            top: 0; /* Align to the top */
+            left: 0; /* Align to the left */
+        }
+
+        .image2 {
+            bottom: 0; /* Align to the bottom */
+            right: 0; /* Align to the right */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="./img/sneaker.jpg" alt="Image 1" class="image image1">
+        <img src="./img/sneaker.jpg" alt="Image 2" class="image image2">
+    </div>
+
+</body>
+</html>

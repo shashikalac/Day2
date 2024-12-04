@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Paragraphs with Different Selectors</title>
+    <link rel="stylesheet" href="para.css">
+    <style>body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #4a90e2;
+    }
+    
+    .first-paragraph {
+        color: rgb(233, 25, 184);
+        background-color: #e0f7fa;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    #second-paragraph {
+        color: rgb(228, 136, 44);
+        background-color: #e8f5e9;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    p {
+        color: rgb(67, 225, 35);
+        background-color: #ffebee;
+        padding: 15px;
+        border-radius: 5px;
+    }</style>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+    <p class="first-paragraph ,style= text-align: center; color:  #f42346;">This is the first paragraph. It has a unique class selector.</p>
+    <p id="second-paragraph , style= text-align: center; color: #f47346;">This is the second paragraph. It is styled using an ID selector.</p>
+    <p style= "text-align: center; color: #f42346;">This is the third paragraph. It is styled using a type selector.</p>
+</body>
+</html>

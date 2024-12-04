@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Calibri Light', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Border Box Layout */
+.border-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Border Item */
+.border-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.border-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Paragraph Style */
+.border-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Border Styles */
+.solid img {
+    border: 4px solid #007bff;
+}
+
+.dotted img {
+    border: 4px dotted #f44336;
+}
+
+.dashed img {
+    border: 4px dashed #4caf50;
+}
+
+.double img {
+    border: 6px double #9c27b0;
+}
+
+.groove img {
+    border: 6px groove #ff9800;
+}
+
+.ridge img {
+    border: 6px ridge #795548;
+}
+
+.inset img {
+    border: 6px inset #3f51b5;
+}
+
+.outset img {
+    border: 6px outset #2196f3;
+}
+
+.none img {
+    border: none;
+}
+
+.hidden img {
+    border: 4px hidden #000;
+}

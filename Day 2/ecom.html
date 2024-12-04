@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    
+    /* Header Styles */
+    header {
+        background: #007BFF;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo h1 {
+        font-size: 2em;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+        transition: background 0.3s ease;
+    }
+    
+    nav a:hover {
+        background: #0056b3;
+        border-radius: 5px;
+    }
+    
+    /* Category Section */
+    .category {
+        padding: 40px 20px;
+        background: #fff;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .category h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #007BFF;
+    }
+    
+    /* Product Grid */
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .product-card {
+        background: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        width: 250px;
+        transition: transform 0.3s ease;
+    }
+    
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .product-card img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .product-card h3 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+    
+    .product-card .price {
+        font-size: 1.2em;
+        color: #e60000;
+        font-weight: bold;
+    }
+    
+    /* Footer Styles */
+    footer {
+        background: #007BFF;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+    }
+</style>    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>E-Commerce</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#electronics">Electronics</a></li>
+                <li><a href="#furniture">Furniture</a></li>
+                <li><a href="#clothing">Clothing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Electronics Section -->
+        <section id="electronics" class="category">
+            <h2>Electronics</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="electronics1.jpg" alt="Laptop">
+                    <h3>Laptop</h3>
+                    <p>Powerful laptop for professionals.</p>
+                    <p class="price">$999.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="electronics2.jpg" alt="Smartphone">
+                    <h3>Smartphone</h3>
+                    <p>Latest smartphone with great features.</p>
+                    <p class="price">$699.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="electronics3.jpg" alt="Headphones">
+                    <h3>Headphones</h3>
+                    <p>Noise-cancelling over-ear headphones.</p>
+                    <p class="price">$199.99</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Furniture Section -->
+        <section id="furniture" class="category">
+            <h2>Furniture</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="furniture1.jpg" alt="Sofa">
+                    <h3>Sofa</h3>
+                    <p>Comfortable and stylish sofa.</p>
+                    <p class="price">$599.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="furniture2.jpg" alt="Dining Table">
+                    <h3>Dining Table</h3>
+                    <p>Elegant dining table for six.</p>
+                    <p class="price">$899.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="furniture3.jpg" alt="Chair">
+                    <h3>Chair</h3>
+                    <p>Ergonomic office chair.</p>
+                    <p class="price">$149.99</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clothing Section -->
+        <section id="clothing" class="category">
+            <h2>Clothing</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="clothing1.jpg" alt="T-shirt">
+                    <h3>T-shirt</h3>
+                    <p>Casual and comfortable T-shirt.</p>
+                    <p class="price">$29.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="clothing2.jpg" alt="Jeans">
+                    <h3>Jeans</h3>
+                    <p>Stylish denim jeans.</p>
+                    <p class="price">$49.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="clothing3.jpg" alt="Jacket">
+                    <h3>Jacket</h3>
+                    <p>Warm and trendy jacket.</p>
+                    <p class="price">$89.99</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Commerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>

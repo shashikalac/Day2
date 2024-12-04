@@ -1,0 +1,50 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.text-color {
+    color: #ff5722; /* Orange text color */
+}
+
+.bg-color {
+    background-color: #e0f7fa; /* Light blue background */
+    padding: 10px; /* Padding for visibility */
+}
+
+.text-align {
+    text-align: center; /* Center-aligned text */
+}
+
+.text-direction {
+    direction: rtl; /* Right-to-left text direction */
+}
+
+.text-transform {
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.text-indent {
+    text-indent: 20px; /* Indent the first line */
+}
+
+.letter-spacing {
+    letter-spacing: 4px; /* Increased letter spacing */
+}
+
+.line-height {
+    line-height: 4; /* Increased line height */
+}
+
+.word-spacing {
+    word-spacing: 5px; /* Increased word spacing */
+}
+
+.white-space {
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow effect */
+}

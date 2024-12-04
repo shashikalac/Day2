@@ -1,0 +1,14 @@
+/* Style for the first paragraph using class selector */
+.first-paragraph {
+    color: blue; /* Change text color to blue */
+}
+
+/* Style for the second paragraph using ID selector */
+#second-paragraph {
+    color: green; /* Change text color to green */
+}
+
+/* Style for the third paragraph using type selector */
+p {
+    color: red; /* Change text color to red for all paragraph tags */
+}
